@@ -1,0 +1,46 @@
+{% extends 'main.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<header>
+    <img src="http://www.stickpng.com/assets/images/58429400a6515b1e0ad75acc.png" alt="Logo">
+</header>
+<nav>
+    <a href="">Como funciona</a>
+    <a href="">MasterTech</a>
+</nav>
+<section>
+
+</section>
+<aside>
+    <h2>Como a minha ideia funciona</h2>
+    <p>Bacon ipsum dolor amet pork chop bacon brisket sausage rump. Drumstick meatloaf salami kielbasa leberkas ground
+        round pork belly beef ribs cow burgdoggen andouille swine tail landjaeger boudin. Chuck flank frankfurter, jowl
+        meatball alcatra sirloin cupim filet mignon. Burgdoggen jowl prosciutto pork chop pork belly flank spare ribs
+        sirloin pancetta pastrami beef corned beef. Brisket meatball salami kevin buffalo rump doner, ham tenderloin
+        strip steak jowl tongue pork loin ball tip shankle. Pastrami sausage fatback beef ribs corned beef t-bone
+        porchetta jowl pancetta alcatra cow.</p>
+</aside>
+<div class="imagem">
+    <div>
+        <img src="{% static 'images/rocket.png' %}" alt="">
+        <p>NASA</p>
+    </div>
+    <div>
+        <img src="{% static 'images/rocket.png' %}" alt="">
+        <p>NASA</p>
+    </div>
+    <div>
+        <img src="{% static 'images/rocket.png' %}" alt="">
+        <p>NASA</p>
+    </div>
+</div>
+<footer>
+    <div>
+        <a href="">Somos fodas</a>
+        <a href="">Somos a Nasa</a>
+        <a href="">Quem somos</a>
+    </div>
+</footer>
+{% endblock %}

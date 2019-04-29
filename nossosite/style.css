@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'navbar navbar navbar navbar'
+                         'section section section section'
+                         'footer footer footer footer';
+    grid-template-rows: 10vh 5vh 50vh 30vh;  
+    grid-template-columns: 28vw 24vw 24vw 24vw ;
+    grid-gap: 0px;          
+}
+header{
+    grid-area: header;
+    background-color: rgba(175, 174, 174, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+header img{
+    width: 60px;
+    height: 60px;
+}
+nav{
+    grid-area: navbar;
+    background-color: rgba(175, 174, 174, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color:blue;
+    text-decoration: none;
+    font-size: 16pt;
+}
+section{
+    grid-area: section;
+    background-image: url('images/')
+}
